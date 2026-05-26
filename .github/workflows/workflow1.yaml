@@ -13,5 +13,5 @@ jobs:
           node:-verison: 24
 
       - name: Install Dependencies
-        runs: npm  install
+        run: npm  install
 
