@@ -1,0 +1,8 @@
+name: workflow1
+on: workflow_dispatch
+jobs:
+  first_job:  
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Build
+        run: echo "this is the build stage"
