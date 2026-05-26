@@ -1,0 +1,8 @@
+name: workflow2
+on: push
+jobs:
+  first_job:  
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Build
+        run: echo "this is the build stage"
